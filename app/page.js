@@ -1,32 +1,40 @@
 export default function Home() {
   return (
     <main>
-      <h1>Sid Ahmed Oudina</h1>
-
-      <h2>CRM Support • Reporting • Performance</h2>
-
-      <p>
-        Bienvenue sur mon portfolio professionnel.
-      </p>
+      <header>
+        <h1>Sid Ahmed Oudina</h1>
+        <h2>CRM Support • Reporting • Performance</h2>
+        <p>
+          Professionnel spécialisé dans le CRM, le support utilisateur,
+          le reporting et l'amélioration de la performance.
+        </p>
+      </header>
 
       <section>
         <h2>À propos de moi</h2>
         <p>
-          Professionnel avec une expérience en CRM, support utilisateur,
-          relation client, reporting et performance.
+          Professionnel avec une expérience dans le CRM, le support
+          utilisateur, la relation client, le reporting et la performance.
         </p>
       </section>
 
       <section>
-        <h2>Expérience</h2>
+        <h2>Expérience professionnelle</h2>
 
         <h3>Pharmalliance</h3>
         <p>CRM Support</p>
 
         <h3>WavesCall — Projet Ooredoo</h3>
         <p>
-          Conseiller Client, Qualiticien, Superviseur et
-          Responsable Reporting & Performance.
+          Conseiller Client • Qualiticien • Superviseur • Responsable
+          Reporting & Performance
+        </p>
+      </section>
+
+      <section>
+        <h2>Compétences</h2>
+        <p>
+          CRM • Salesforce • OCE CRM • Reporting • Power BI • Excel
         </p>
       </section>
 
@@ -37,16 +45,9 @@ export default function Home() {
       </section>
 
       <section>
-        <h2>Compétences</h2>
-        <p>CRM • Salesforce • OCE CRM • Reporting • Power BI • Excel</p>
-      </section>
-
-      <section>
         <h2>Contact</h2>
         <p>Sidahmedoudina@gmail.com</p>
-        <p>
-          LinkedIn: sid-ahmed-oudina
-        </p>
+        <p>LinkedIn • GitHub</p>
       </section>
     </main>
   );
