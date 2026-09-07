@@ -8,49 +8,108 @@ html {
 
 body {
   margin: 0;
-  background: #080a0f;
-  color: #f5f7fb;
+  background: #070b14;
+  color: #f8fafc;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
 }
 
 main {
-  max-width: 1100px;
+  max-width: 1150px;
   margin: auto;
-  padding: 60px 24px;
+  padding: 30px 24px 80px;
 }
 
-h1 {
-  font-size: 64px;
-  margin-bottom: 10px;
+header {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 0;
 }
 
-h2 {
-  margin-top: 45px;
+header h1 {
+  font-size: clamp(48px, 8vw, 88px);
+  line-height: 1;
+  margin: 0 0 20px;
+  letter-spacing: -3px;
+}
+
+header h2 {
+  margin: 0 0 20px;
   color: #8b7cff;
+  font-size: clamp(22px, 4vw, 34px);
 }
 
-h3 {
-  margin-top: 25px;
-}
-
-p {
-  color: #b8becb;
-  font-size: 18px;
+header p {
+  max-width: 700px;
+  font-size: 20px;
+  color: #aeb8c8;
 }
 
 section {
-  border-top: 1px solid #292e39;
-  padding-top: 25px;
-  margin-top: 50px;
+  border-top: 1px solid #202938;
+  padding: 70px 0;
+}
+
+section h2 {
+  font-size: 34px;
+  margin: 0 0 30px;
+  color: #ffffff;
+}
+
+section h3 {
+  font-size: 24px;
+  margin: 30px 0 5px;
+  color: #8b7cff;
+}
+
+p {
+  color: #aeb8c8;
+  font-size: 18px;
+  max-width: 800px;
+}
+
+section p {
+  margin-top: 8px;
 }
 
 @media (max-width: 600px) {
-  h1 {
-    font-size: 42px;
+  main {
+    padding: 20px 18px 60px;
   }
 
-  main {
-    padding: 40px 18px;
+  header {
+    min-height: 80vh;
+    padding: 40px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+    letter-spacing: -2px;
+  }
+
+  header h2 {
+    font-size: 22px;
+  }
+
+  header p {
+    font-size: 17px;
+  }
+
+  section {
+    padding: 50px 0;
+  }
+
+  section h2 {
+    font-size: 28px;
+  }
+
+  section h3 {
+    font-size: 21px;
+  }
+
+  p {
+    font-size: 16px;
   }
 }
