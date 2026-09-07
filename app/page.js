@@ -1,6 +1,13 @@
 export default function Home() {
   return (
     <main>
+  <nav className="navbar">
+    <a href="#about">À propos</a>
+    <a href="#experience">Expérience</a>
+    <a href="#skills">Compétences</a>
+    <a href="#education">Formation</a>
+    <a href="#contact">Contact</a>
+  </nav>
       <header className="hero">
         <div className="hero-content">
           <p className="eyebrow">PORTFOLIO PROFESSIONNEL</p>
