@@ -1,44 +1,53 @@
 export default function Home() {
   return (
     <main>
-      <header>
-        <p>PORTFOLIO PROFESSIONNEL</p>
+      <header className="hero">
+        <div className="hero-content">
+          <p className="eyebrow">PORTFOLIO PROFESSIONNEL</p>
 
-        <h1>Sid Ahmed Oudina</h1>
+          <h1>
+            Sid Ahmed
+            <span> Oudina</span>
+          </h1>
 
-        <h2>CRM Support • Reporting • Performance</h2>
+          <h2>CRM Support • Reporting • Performance</h2>
 
-        <p>
-          Professionnel spécialisé dans le CRM, le support utilisateur,
-          le reporting et l'amélioration de la performance.
-        </p>
+          <p className="hero-description">
+            Professionnel spécialisé dans le CRM, le support utilisateur,
+            le reporting et l'amélioration de la performance.
+          </p>
 
-        <div>
-          <a
-            href="https://www.linkedin.com/in/sid-ahmed-oudina-4a4232205/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
+          <div className="hero-buttons">
+            <a
+              href="https://www.linkedin.com/in/sid-ahmed-oudina-4a4232205/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button primary"
+            >
+              LinkedIn
+            </a>
 
-          <a
-            href="https://github.com/sidahmedoudina-netizen"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
+            <a
+              href="https://github.com/sidahmedoudina-netizen"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button"
+            >
+              GitHub
+            </a>
 
-          <a href="mailto:Sidahmedoudina@gmail.com">
-            Email
-          </a>
+            <a
+              href="mailto:Sidahmedoudina@gmail.com"
+              className="button"
+            >
+              Me contacter
+            </a>
+          </div>
         </div>
       </header>
 
       <section>
         <h2>À propos de moi</h2>
-
         <p>
           Professionnel avec une expérience en CRM, support utilisateur,
           relation client, reporting et performance.
@@ -63,7 +72,6 @@ export default function Home() {
 
       <section>
         <h2>Compétences</h2>
-
         <p>
           CRM • Salesforce • OCE CRM • Reporting • Power BI • Excel
         </p>
@@ -71,9 +79,7 @@ export default function Home() {
 
       <section>
         <h2>Formation</h2>
-
         <h3>Master 2 — Comptabilité Audit</h3>
-
         <p>Université d'Alger 3</p>
       </section>
 
