@@ -47,7 +47,23 @@ export default function Home() {
       <section>
         <h2>Contact</h2>
         <p>Sidahmedoudina@gmail.com</p>
-        <p>LinkedIn • GitHub</p>
+        <p>
+  <a
+    href="https://www.linkedin.com/in/sid-ahmed-oudina-4a4232205/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    LinkedIn
+  </a>
+  {" • "}
+  <a
+    href="https://github.com/sidahmedoudina-netizen"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    GitHub
+  </a>
+</p>
       </section>
     </main>
   );
